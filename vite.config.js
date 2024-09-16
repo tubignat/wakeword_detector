@@ -1,3 +1,3 @@
 export default {
-    base: '/wakeword_detector_2/'
+    base: '/'
 }
