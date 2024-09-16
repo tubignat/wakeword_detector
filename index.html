@@ -1,12 +1,16 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wakeword detection</title>
-  </head>
-  <body style="transition: background-color 200ms;">
+</head>
+
+<body style="transition: background-color 200ms;">
     <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+    <script type="module" src="/src/vosk.ts"></script>
+    <div id="recognition-result"><span id="partial"></span></div>
+</body>
+
 </html>
